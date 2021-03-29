@@ -1,0 +1,48 @@
+/*Стиль для основного заголовка страницы*/
+.heading{
+    font-family: 'Times New Roman', Times, serif;/*Настройка шрифта*/
+    color: rgba(255, 204, 138, 0.692);/*Цвет шрифта*/
+    text-align: center;/*Расположение текста*/
+}
+/*Стиль для всей страницы*/
+.background{
+    background-color: rgb(36, 36, 36);/*Цвет фона*/
+}
+/*Стиль для навигации между страницами сайта*/
+.navigation{
+    font-family: 'Times New Roman', Times, serif;/*Настройка шрифта*/
+    color: burlywood;/*Цвет шрифта*/
+    font-size: 18px;/*Размер шрифта*/
+    text-decoration: none;/*убираем подчёркивание*/
+    margin-right: 15px;/*Внешний отступ слева*/
+}
+/*Стиль для основного текста сайта*/
+.text{
+    font-family: 'Times New Roman', Times, serif;/*Настройка шрифта*/
+    color: rgb(255, 239, 220);/*Цвет шрифта*/
+    font-size: 18px;/*Размер шрифта*/
+    text-align: justify;/*Выравнивание по ширине*/
+    margin-bottom: 20px;/*Нижний внешний отступ*/
+    margin-left: 10%;/*Левый внешний отступ*/
+    margin-right: 10%;/*Правый внешний отступ*/
+    line-height: 23px;/*Расстояние между словами по горизонтали*/
+}
+/*Стиль для отображения изображения*/
+.imagestyle{
+    padding-right: 5%;
+    padding-bottom: 20px;
+}
+/* Стиль для последнего элемента */
+.imagestyle:last-child{
+    padding-right: 0;
+}
+/* Стиль навигации по странице */
+.navigation_inside{
+    text-decoration: none;
+    color:pink;
+}
+/* Стиль для гиперссылок */
+.link{
+    text-decoration: none;
+    color:pink;
+}

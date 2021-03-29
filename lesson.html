@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru"><!--Указываем язык, для браузера-->
+  <head><!--Часть кода в которой указываем основные параметры-->
+    <meta charset="UTF-8"><!--Служебный тег, задающий кодировку-->
+    <link rel="stylesheet" href="index_style.css"><!--Подключаем таблицу стилей-->
+    <title>Урок по информатике</title><!--Заголовок страницы, отображаемый на вкладке-->
+  </head>
+  <body class="background"><!--Часть кода, в которой будет размещено основное наполнение страницы-->
+    <!--Создание навигации сайта, в атрибуте style указали расположение по центру и цвет фона блока-->
+    <nav id="title" style="text-align: center; background-color:  rgb(48, 47, 47);">
+      <!--Элементы навигации с подключенными стилями CSS-->
+      <a class="navigation" href="index.html">Главная</a>
+      <a class="navigation" href="about_cloud.html">Об облачных технологиях</a>
+      <a class="navigation" href="robototechnik.html">Основы робототехники</a>
+      <a class="navigation" href="cloud_service.html">Облачные сервисы</a>
+      <a class="navigation" href="lesson.html">Урок по информатике</a>
+      <a class="navigation" href="findings.html">Выводы</a>
+      <a class="navigation" href="sourse.html">Литература</a>
+    </nav>
+    <!-- Создание иконки для перемещение вверх страницы -->
+    <a href="#title"><img src="icon_arrow.png" alt="Вверх" style="position: fixed; margin-top: 5%;margin-left: 1.7%;" width="5%"></a>
+    <h1 class="heading">Урок информатики</h1> <!--Заголовок, отображаемый на самой странице-->
+    <!--Ниже в отдельных тегах div заключены абзацы текста страницы, стили которых прописаны в классе text-->
+    <div class="text">
+      Покажем организацию внеурочной образовательной деятельности на примере занятия с применением проектной технологии обучения. Занятие будет предусматривать применение облачных технологий. Материал к уроку можно скачать, нажав иконку ниже.
+    </div>
+    <div style="text-align: center;" >
+      <a href="Технологическая карта урока.docx"><img srcset="picture6.png" alt="So sorry:(" width="8%"></a>
+    </div>
+    <h2 id="video" class="heading">Видеолекция</h2>
+      <!--Отображение видео по центру. Видео занимает 60% от ширины страницы-->
+      <div style="text-align: center;">
+        <video src="урок.mp4" controls width="60%" style="margin-top: 10px;"></video>
+      </div>
+  </body>
+</html>
